@@ -1,3 +1,6 @@
+import React from 'react'
+
+import Cabecera from './components/Cabecera'
 // El componente App es el padre de:
 // - Cabecera
 // - Listado
@@ -9,8 +12,8 @@ function App() {
 
   return (
     <div className="App">
-      <Cabecera />
-      <Listado />
+      <Cabecera  cantidad="2"/>
+      {/* <Listado /> */}
     </div>
   );
 }
