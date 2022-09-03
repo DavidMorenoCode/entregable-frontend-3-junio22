@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import Cabecera from './components/Cabecera'
 import Listado from './components/Listado'
-import data from '.components/data.json'
+import data from './components/data.json'
 
 // El componente App es el padre de:
 // - Cabecera
