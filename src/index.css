@@ -55,6 +55,7 @@ header p span {
 .producto h5 span{
   padding: 3px;
 }
+
 .producto h5 span.sinStock{
   background-color: rgb(255, 178, 178);
   padding: 3px;
