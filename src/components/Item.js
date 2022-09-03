@@ -20,7 +20,7 @@ export default function Item({key,titulo, descripcion, cantidad, agregarAlCarrit
   const  descontarCantidad   = () =>{
     setcantidadProducto(cantidadProducto - valDescontar)
   }
-  const spanAgotado = <span>agotado</span>
+  const spanAgotado = <span className="sinStock">agotado</span>
   const spanCantidad = <span>{cantidadProducto}</span>
 
   const buttonAgotado = <button disabled> Sin Stock</button>
