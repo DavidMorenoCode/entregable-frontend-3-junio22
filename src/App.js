@@ -18,12 +18,7 @@ function App() {
     setCantidad(cantidad + valAumento);
   }
 
-  return (
-    <div className="App">
-      <Cabecera  cantidad={cantidad}/>
-      <Listado agregarAlCarrito= {agregarAlCarrito} data = {data}/>
-    </div>
-  );
+  return <h1>TEST</h1>
 }
 
 export default App;
